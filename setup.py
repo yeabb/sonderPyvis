@@ -5,14 +5,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 exec(open('pyvis/_version.py').read())
 setup(
-    name="pyvis",
-    version=__version__,
-    description="A Python network graph visualization library",
+    name="sonderPyvis",
+    version="1.0.0",
+    description="A customized version of Python network graph visualization(pyvis) library for Sonder",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="https://github.com/WestHealth/pyvis",
-    author="Jose Unpingco",
-    author_email="datascience@westhealth.org",
+    url="https://github.com/yeabb/sonderPyvis",
     license="BSD",
     packages=find_packages(),
     include_package_data=True,
