@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-exec(open('pyvis/_version.py').read())
+exec(open('sonderPyvis/_version.py').read())
 setup(
     name="sonderPyvis",
     version="1.0.0",
