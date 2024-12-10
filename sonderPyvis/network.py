@@ -420,7 +420,7 @@ class Network(object):
 
         >>> nodes, edges, heading, height, width, options = net.get_network_data()
         """
-        if isinstance(self.options, dict):
+        if isinstance(self.options, dict):  #check if options is aleady in dict form for json dumping
             return (self.nodes, self.edges, self.heading, self.height,
                     self.width, json.dumps(self.options))
         else:
