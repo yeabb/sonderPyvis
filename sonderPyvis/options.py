@@ -84,6 +84,7 @@ class Interaction(object):
         self.hideEdgesOnDrag = False
         self.hideNodesOnDrag = False
         self.dragNodes = True
+        self.zoomSpeed = 0.3  # overide this value to slow down zoom speed (default is 1)
 
     def __getitem__(self, item):
         return self.__dict__[item]
